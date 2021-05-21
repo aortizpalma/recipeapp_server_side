@@ -1,0 +1,42 @@
+# Recipe App - Server side
+
+YumCards is a small React/Node/Mongo app to share small/quick recipes.
+
+This is a projec from the React21K gorup of the Business College Helsinki
+
+## Technologies used
+
+Built with: 
+
+- React
+- Node.js
+- Mongo.db
+
+## Setup and usage
+
+- This project is made together with the Client side of the app, available at https://github.com/aortizpalma/recipeapp_client_side
+
+- npm install body-parser cors express mongoose nodemon
+- Adjust package.json's script section as follows:
+"scripts": {
+  "start": "nodemon index.js"
+  },
+- Run "npm start" on the server root directory to run the backend on the port 5000
+- To connect to the Mongo.db cluster you may require Netowk Acess from me for your specific IP address.
+
+## Screenshot
+
+## Sources 
+
+Package dependencies:
+- body-parser: enables to send post requests
+- cors: enables cross-origin requests
+- express: for the routing framework of the app
+- mongoose: to create models for the posts
+- nodemon: allows to prevent having to reload the server every time a change is made
+
+## Authors and acknowledgment
+
+Alfonso Ortiz Palma Junco
+- GitHub @aortizpalma
+- [LinkedIn](https://www.linkedin.com/in/ortizpalma/)
